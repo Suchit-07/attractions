@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMap">
+    </script>
+    <title>Attractions</title>
+  </head>
+  <body class="bg-dark">
+    <div id="map"></div>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a href="/" class="navbar-brand nav-item nav-link text-white">Attractions</a>
+              <a href="/saved" class="nav-item nav-link text-white">Saved</a>
+          </div>
+      </div>
+  </nav>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
